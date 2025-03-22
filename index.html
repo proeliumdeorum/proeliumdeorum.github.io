@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proelium Deorum</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f4e4c1;
+      color: #5a3e1b;
+      transition: background-color 0.5s, color 0.5s;
+    }
+    .quiz-container,
+    .title-screen,
+    .loading-screen {
+      max-width: 90%;
+      width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 5px solid #8b5a2b;
+      border-radius: 10px;
+      box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+      background-color: #fff8dc;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      color: #8b5a2b;
+    }
+    h2 {
+      font-size: 24px;
+      margin: 10px 0;
+      color: #8b5a2b;
+    }
+    .category-button,
+    .answer-button {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      font-size: 18px;
+      cursor: pointer;
+      border: 2px solid #8b5a2b;
+      border-radius: 5px;
+      font-family: 'Times New Roman', serif;
+      color: white;
+    }
+    .category-vocab {
+      background-color: #425074;
+    }
+    .category-politics {
+      background-color: #58653e;
+    }
+    .category-culture {
+      background-color: #6e2121;
+    }
+    .category-myth {
+      background-color: #b46217;
+    }
+    .category-button:hover {
+      opacity: 0.8;
+    }
+    .answer-button {
+      background-color: #e0c39a;
+      color: #5a3e1b;
+      border: 2px solid #8b5a2b;
+    }
+    .answer-button:hover {
+      background-color: #d1a57a;
+    }
+    .hidden {
+      display: none;
+    }
+    .correct {
+      background-color: lightgreen !important;
+    }
+    .incorrect {
+      background-color: lightcoral !important;
+    }
+    @media (max-width: 600px) {
+      .quiz-container,
+      .title-screen,
+      .loading-screen {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-screen" id="loading-screen">
+    <h1>Proelium Deorum</h1>
+    <h2>Laden...</h2>
+  </div>
+
+  <div class="title-screen hidden" id="title-screen">
+    <h1>Proelium Deorum</h1>
+    <h2>Kampf der Götter</h2>
+    <button class="category-button category-vocab" onclick="startQuiz('vocab')">Vokabeln</button>
+    <button class="category-button category-politics" onclick="startQuiz('politics')">Römische Geschichte und Politik</button>
+    <button class="category-button category-culture" onclick="startQuiz('culture')">Römische Kultur</button>
+    <button class="category-button category-myth" onclick="startQuiz('myth')">Antike Mythologie</button>
+  </div>
+
+  <div class="quiz-container hidden" id="quiz">
+    <h2 id="question">Frage lädt...</h2>
+    <div id="options"></div>
+  </div>
+
+  <script>
+    // Holds the loaded question arrays by category
+    let questions = {
+      vocab: [],
+      politics: [],
+      culture: [],
+      myth: [],
+    };
+
+    // We'll keep a separate askedQuestions set per category
+    let askedQuestionsMap = {
+      vocab: new Set(),
+      politics: new Set(),
+      culture: new Set(),
+      myth: new Set(),
+    };
+
+    let currentCategory = '';
+
+    // Load all JSON data on page load
+    async function fetchQuestions() {
+      try {
+        const categories = ['vocab', 'politics', 'culture', 'myth'];
+
+        for (let category of categories) {
+          const response = await fetch(`questions_${category}.json`);
+
+          // if there's a problem with the response, throw error
+          if (!response.ok) {
+            throw new Error("Fehler bei "+category);
+          }
+
+          questions[category] = await response.json();
+        }
+
+        // Once loaded, hide loading screen and show title screen
+        document.getElementById("loading-screen").classList.add("hidden");
+        document.getElementById("title-screen").classList.remove("hidden");
+      } catch (error) {
+        alert("Fehler beim Laden der Fragen. Bitte überprüfen Sie die JSON-Dateien.");
+      }
+    }
+
+    // Called when the user picks a category
+    function startQuiz(category) {
+      document.body.style.backgroundColor = getCategoryColor(category);
+      document.getElementById("title-screen").classList.add("hidden");
+      document.getElementById("quiz").classList.remove("hidden");
+      currentCategory = category;
+
+      // Immediately load a question
+      loadQuestion();
+    }
+
+    function loadQuestion() {
+      const questionElem = document.getElementById("question");
+      const optionsElem = document.getElementById("options");
+
+      questionElem.innerText = "Frage lädt...";
+      optionsElem.innerHTML = "";
+
+      // Get the set for the current category
+      let askedQSet = askedQuestionsMap[currentCategory];
+
+      // Gather questions in the current category that haven't been asked
+      let availableQuestions = questions[currentCategory].filter(q => !askedQSet.has(q.question));
+
+      // If we've asked them all, we reset the set to start over
+      if (availableQuestions.length === 0) {
+        askedQSet.clear();
+        availableQuestions = questions[currentCategory];
+      }
+
+      // If the category actually had no questions at all, handle gracefully
+      if (availableQuestions.length === 0) {
+        questionElem.innerText = "Keine Fragen in dieser Kategorie!";
+        return;
+      }
+
+      // Pick a random question
+      let question = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+      askedQSet.add(question.question);
+
+      // Display the question text
+      questionElem.innerText = question.question;
+
+      // Shuffle the answer array so that the correct answer is in a random position
+      let shuffledOptions = [...question.options];
+      shuffleArray(shuffledOptions);
+
+      // Create answer buttons
+      shuffledOptions.forEach((option) => {
+        const button = document.createElement("button");
+        button.innerText = option;
+        button.classList.add("answer-button");
+        button.onclick = () => revealAnswer(button, option === question.correct);
+        optionsElem.appendChild(button);
+      });
+    }
+
+    function revealAnswer(button, isCorrect) {
+      // Disable all answer buttons
+      const allButtons = document.querySelectorAll(".answer-button");
+      allButtons.forEach(btn => {
+        btn.disabled = true;
+      });
+
+      // Mark chosen answer as correct/incorrect
+      button.classList.add(isCorrect ? "correct" : "incorrect");
+
+      // If incorrect, highlight the correct one
+      if (!isCorrect) {
+        const questionText = document.getElementById("question").innerText;
+        const currentQ = questions[currentCategory].find(q => q.question === questionText);
+        if (currentQ) {
+          const correctAnswer = currentQ.correct;
+          allButtons.forEach(btn => {
+            if (btn.innerText === correctAnswer) {
+              btn.classList.add("correct");
+            }
+          });
+        }
+      }
+
+      // After 5s, go back to the title screen
+      setTimeout(() => {
+        document.getElementById("quiz").classList.add("hidden");
+        document.getElementById("title-screen").classList.remove("hidden");
+        document.body.style.backgroundColor = "#f4e4c1";
+      }, 5000);
+    }
+
+    // Fisher-Yates shuffle
+    function shuffleArray(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+
+    function getCategoryColor(category) {
+      return {
+        vocab: "#425074",
+        politics: "#58653e",
+        culture: "#6e2121",
+        myth: "#b46217",
+      }[category] || "#f4e4c1";
+    }
+
+    // Start fetching data on load
+    fetchQuestions();
+  </script>
+</body>
+</html>

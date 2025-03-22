@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Welcher römische Feldherr überquerte den Rubikon und leitete damit das Ende der Republik ein?",
+        "options": ["Julius Caesar", "Augustus", "Pompeius", "Sulla"],
+        "correct": "Julius Caesar"
+    },
+    {
+        "question": "Welches Jahr markiert das traditionelle Ende des Weströmischen Reiches?",
+        "options": ["395 n. Chr.", "410 n. Chr.", "476 n. Chr.", "500 n. Chr."],
+        "correct": "476 n. Chr."
+    },
+    {
+        "question": "Welcher römische Kaiser führte die sogenannte „Tetrarchie“ ein?",
+        "options": ["Nero", "Diokletian", "Trajan", "Hadrian"],
+        "correct": "Diokletian"
+    },
+    {
+        "question": "Welches Amt in der römischen Republik war für die Leitung des Staates verantwortlich und wurde jährlich neu besetzt?",
+        "options": ["Diktator", "Zensor", "Konsul", "Prätor"],
+        "correct": "Konsul"
+    },
+    {
+        "question": "Welche berühmte Schlacht gegen Hannibal endete in einer verheerenden Niederlage für Rom?",
+        "options": ["Zama", "Cannae", "Actium", "Philippi"],
+        "correct": "Cannae"
+    },
+    {
+        "question": "Welcher Senator beendete jede seiner Reden mit dem Satz 'Ceterum censeo Carthaginem esse delendam'?",
+        "options": ["Cicero", "Cato der Ältere", "Scipio Africanus", "Brutus"],
+        "correct": "Cato der Ältere"
+    },
+    {
+        "question": "Welches Bauwerk war das Zentrum des politischen und wirtschaftlichen Lebens in Rom?",
+        "options": ["Circus Maximus", "Forum Romanum", "Kolosseum", "Thermen des Caracalla"],
+        "correct": "Forum Romanum"
+    },
+    {
+        "question": "Welche politische Reform machte Gaius Marius in der römischen Armee?",
+        "options": ["Er führte die Prätorianergarde ein", "Er schuf eine stehende Berufsarmee", "Er verbot Söldner", "Er führte den Legionstyp Manipel ein"],
+        "correct": "Er schuf eine stehende Berufsarmee"
+    },
+    {
+        "question": "Welches Gesetz machte Caesar zum Alleinherrscher Roms?",
+        "options": ["Lex Agraria", "Lex Titia", "Lex Iulia", "Lex Antonia"],
+        "correct": "Lex Titia"
+    },
+    {
+        "question": "Welcher römische Kaiser ließ eine große Mauer an der Grenze Britanniens errichten?",
+        "options": ["Hadrian", "Trajan", "Claudius", "Marcus Aurelius"],
+        "correct": "Hadrian"
+    },
+    {
+        "question": "Wie hieß die Versammlung der Plebejer, die Gesetze für das römische Volk erlassen konnte?",
+        "options": ["Senat", "Comitia Centuriata", "Comitia Tributa", "Concilium Plebis"],
+        "correct": "Concilium Plebis"
+    },
+    {
+        "question": "Welcher Kaiser wurde durch die Prätorianergarde nach einer skandalösen Auktion eingesetzt?",
+        "options": ["Nerva", "Caligula", "Didius Julianus", "Vespasian"],
+        "correct": "Didius Julianus"
+    },
+    {
+        "question": "Wie hieß die politische Allianz zwischen Caesar, Pompeius und Crassus?",
+        "options": ["Das Erste Triumvirat", "Das Zweite Triumvirat", "Die Römische Föderation", "Die Pater Patriae"],
+        "correct": "Das Erste Triumvirat"
+    },
+    {
+        "question": "Welcher Kaiser legalisierte das Christentum im Römischen Reich?",
+        "options": ["Diokletian", "Constantinus der Große", "Theodosius I.", "Julian"],
+        "correct": "Constantinus der Große"
+    },
+    {
+        "question": "Welcher germanische Anführer besiegte die Römer in der Varusschlacht?",
+        "options": ["Alarich", "Attila", "Arminius", "Odoaker"],
+        "correct": "Arminius"
+    },
+    {
+        "question": "Welche Schlacht markierte den endgültigen Sieg von Octavian über Marcus Antonius?",
+        "options": ["Cannae", "Philippi", "Actium", "Zama"],
+        "correct": "Actium"
+    },
+    {
+        "question": "Welcher Kaiser begann den Bau des Kolosseums?",
+        "options": ["Nero", "Vespasian", "Titus", "Domitian"],
+        "correct": "Vespasian"
+    },
+    {
+        "question": "Welcher römische Politiker wurde im Senat ermordet, weil er als Diktator zu mächtig wurde?",
+        "options": ["Julius Caesar", "Tiberius Gracchus", "Marcus Antonius", "Augustus"],
+        "correct": "Julius Caesar"
+    },
+    {
+        "question": "Wie wurde das Regierungsmodell des Römischen Reiches nach Augustus offiziell genannt?",
+        "options": ["Dominat", "Tetrarchie", "Principat", "Res Publica"],
+        "correct": "Principat"
+    },
+    {
+        "question": "Welcher römische Politiker führte die erste große Landreform durch?",
+        "options": ["Tiberius Gracchus", "Lucius Cornelius Sulla", "Marcus Junius Brutus", "Scipio Africanus"],
+        "correct": "Tiberius Gracchus"
+    },
+    {
+        "question": "Welches Amt konnte in Krisenzeiten für maximal sechs Monate vergeben werden?",
+        "options": ["Konsul", "Diktator", "Tribun", "Prätor"],
+        "correct": "Diktator"
+    },
+    {
+        "question": "Welcher Kaiser baute eine zweite Hauptstadt für das Römische Reich?",
+        "options": ["Trajan", "Theodosius I.", "Constantinus der Große", "Hadrian"],
+        "correct": "Constantinus der Große"
+    },
+    {
+        "question": "Welcher Kaiser regierte zur Zeit des Vesuv-Ausbruchs, der Pompeji zerstörte?",
+        "options": ["Nero", "Vespasian", "Titus", "Domitian"],
+        "correct": "Titus"
+    },
+    {
+        "question": "Welcher germanische Heerführer setzte 476 n. Chr. den letzten weströmischen Kaiser ab?",
+        "options": ["Odoaker", "Alarich", "Arminius", "Theoderich der Große"],
+        "correct": "Odoaker"
+    },
+    {
+        "question": "Welcher römische Kaiser war als 'Philosophenkaiser' bekannt?",
+        "options": ["Trajan", "Hadrian", "Marcus Aurelius", "Commodus"],
+        "correct": "Marcus Aurelius"
+    },
+    {
+        "question": "Welches Gesetz sicherte den Plebejern den Zugang zu hohen Ämtern der römischen Republik?",
+        "options": ["Lex Hortensia", "Lex Canuleia", "Lex Licinia Sextia", "Lex Valeria"],
+        "correct": "Lex Licinia Sextia"
+    },
+    {
+        "question": "Welcher römische Kaiser führte die sogenannte „Soldatenkaiserzeit“ ein?",
+        "options": ["Caracalla", "Septimius Severus", "Gallienus", "Maximinus Thrax"],
+        "correct": "Maximinus Thrax"
+    },
+    {
+        "question": "Wie hieß die politische Fraktion der römischen Republik, die sich für die Rechte der Plebejer einsetzte?",
+        "options": ["Optimaten", "Populares", "Equites", "Senatores"],
+        "correct": "Populares"
+    },
+    {
+        "question": "Welche Reform führte Kaiser Caracalla mit der Constitutio Antoniniana ein?",
+        "options": ["Die Einführung des Christentums als Staatsreligion", "Die Einführung einer neuen Steuer", "Die Ausweitung des römischen Bürgerrechts auf fast alle freien Bewohner des Reiches", "Die Auflösung des römischen Senats"],
+        "correct": "Die Ausweitung des römischen Bürgerrechts auf fast alle freien Bewohner des Reiches"
+    },
+    {
+        "question": "Welches römische Staatsorgan war hauptsächlich für die Finanzverwaltung verantwortlich?",
+        "options": ["Die Quaestoren", "Die Konsuln", "Die Zensoren", "Die Volkstribunen"],
+        "correct": "Die Quaestoren"
+    },
+    {
+        "question": "Welches römische Gesetz sicherte den Plebejern Schutz vor willkürlicher Gewalt durch Magistrate?",
+        "options": ["Lex Valeria", "Lex Hortensia", "Lex Claudia", "Lex Aelia Sentia"],
+        "correct": "Lex Valeria"
+    },
+    {
+        "question": "Wie hieß die römische Provinz, die 117 n. Chr. unter Trajan auf dem Gebiet des heutigen Irak gegründet wurde?",
+        "options": ["Arabia Petraea", "Armenia", "Mesopotamia", "Dacia"],
+        "correct": "Mesopotamia"
+    },
+    {
+        "question": "Welcher römische Kaiser setzte das sogenannte „Edikt von Mailand“ durch, das die Religionsfreiheit garantierte?",
+        "options": ["Diokletian", "Constantinus der Große", "Theodosius I.", "Julian"],
+        "correct": "Constantinus der Große"
+    },
+    {
+        "question": "Welches römische Gremium hatte das Recht, neue Gesetze zu verabschieden?",
+        "options": ["Der Senat", "Die Comitia Centuriata", "Das Concilium Plebis", "Das Pontifikalkollegium"],
+        "correct": "Die Comitia Centuriata"
+    },
+    {
+        "question": "Welcher römische General besiegte Hannibal endgültig in der Schlacht von Zama?",
+        "options": ["Fabius Maximus", "Scipio Africanus", "Lucius Cornelius Sulla", "Marius"],
+        "correct": "Scipio Africanus"
+    },
+    {
+        "question": "Welcher römische Kaiser war der erste, der von der Prätorianergarde ermordet wurde?",
+        "options": ["Nero", "Caligula", "Commodus", "Caracalla"],
+        "correct": "Caligula"
+    },
+    {
+        "question": "Welches Amt hatten die Volkstribunen der römischen Republik inne?",
+        "options": ["Sie vertraten die Interessen der Plebejer", "Sie befehligten die Armee", "Sie kontrollierten die Finanzen des Staates", "Sie waren für die Rechtsprechung zuständig"],
+        "correct": "Sie vertraten die Interessen der Plebejer"
+    },
+    {
+        "question": "Welcher römische Kaiser begann die Christianisierung des Reiches aktiv zu fördern?",
+        "options": ["Julian", "Diokletian", "Constantinus der Große", "Hadrian"],
+        "correct": "Constantinus der Große"
+    },
+    {
+        "question": "Welches Ereignis führte zur Spaltung des Römischen Reiches in eine West- und eine Osthälfte?",
+        "options": ["Die Tetrarchie unter Diokletian", "Die Ermordung Caesars", "Der Sieg von Octavian bei Actium", "Die Constitutio Antoniniana"],
+        "correct": "Die Tetrarchie unter Diokletian"
+    },
+    {
+        "question": "Wie nannten die Römer die Stadt Karthago nach ihrer Zerstörung?",
+        "options": ["Carthago Nova", "Provincia Africa", "Colonia Julia Carthago", "Carthago Restituta"],
+        "correct": "Colonia Julia Carthago"
+    },
+    {
+        "question": "Welcher römische Kaiser ließ Rom in Bezirke einteilen und eine Feuerwehr organisieren?",
+        "options": ["Augustus", "Trajan", "Vespasian", "Nero"],
+        "correct": "Augustus"
+    },
+    {
+        "question": "Welches Amt wurde in der römischen Republik eingeführt, um den Staat in Krisenzeiten zu führen?",
+        "options": ["Diktator", "Prätor", "Zensor", "Volkstribun"],
+        "correct": "Diktator"
+    },
+    {
+        "question": "Welches Ereignis gilt als Beginn der Krise des Römischen Reiches im 3. Jahrhundert?",
+        "options": ["Die Ermordung von Severus Alexander", "Die Auflösung der Prätorianergarde", "Der Einfall der Vandalen in Italien", "Der Tod von Marcus Aurelius"],
+        "correct": "Die Ermordung von Severus Alexander"
+    },
+    {
+        "question": "Welcher römische Kaiser führte eine umfassende Steuerreform durch, die als 'Capitatio-Iugatio' bekannt wurde?",
+        "options": ["Diokletian", "Constantinus der Große", "Hadrian", "Valens"],
+        "correct": "Diokletian"
+    }
+]

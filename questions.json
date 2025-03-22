@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Welches dieser Ämter war kein Teil des Cursus Honorum in der römischen Republik?",
+        "options": ["Aedil", "Pontifex Maximus", "Prätor", "Quästor"],
+        "correct": "Pontifex Maximus"
+    },
+    {
+        "question": "Welches Bauwerk diente in Rom ursprünglich als Austragungsort für Gladiatorenkämpfe, bevor das Kolosseum gebaut wurde?",
+        "options": ["Theater des Pompeius", "Circus Maximus", "Amphitheater von Statilius Taurus", "Amphitheatrum Castrense"],
+        "correct": "Amphitheater von Statilius Taurus"
+    },
+    {
+        "question": "Welche der folgenden römischen Provinzen war keine kaiserliche Provinz, sondern stand unter der Verwaltung des Senats?",
+        "options": ["Aegyptus", "Asia", "Britannia", "Syria"],
+        "correct": "Asia"
+    }
+]
