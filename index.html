@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proelium Deorum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading-screen" id="loading-screen">
+    <h1>Proelium Deorum</h1>
+    <h2>Laden...</h2>
+  </div>
+
+  <div class="title-screen hidden" id="title-screen">
+    <img class="titleimage" src="assets/logo.png">
+    <button class="category-button category-culture" onclick="startQuiz('culture')">
+      <img src="assets/icons/vase.png" class="button-icon"> Römische Kultur
+    </button>
+    <button class="category-button category-politics" onclick="startQuiz('politics')">
+      <img src="assets/icons/wreath.png" class="button-icon"> Römische Geschichte und Politik
+    </button>
+    <button class="category-button category-vocab" onclick="startQuiz('vocab')">
+      <img src="assets/icons/scroll.png" class="button-icon"> Vokabeln
+    </button>
+    <button class="category-button category-myth" onclick="startQuiz('myth')">
+      <img src="assets/icons/lyre.png" class="button-icon"> Antike Mythologie
+    </button>
+    <p class="reloadinfo">Hinweis: Bitte lade die Seite nicht neu, ansonsten wird die Liste der bereits gestellten Fragen geleert. Du kehrst automatisch nach 5 Sekunden zur Startseite zurück.</p>
+  </div>
+
+  <div class="quiz-container hidden" id="quiz">
+    <h1 id="category">Kategorie lädt...</h1>
+    <h2 id="question">Frage lädt...</h2>
+    <div id="options"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
