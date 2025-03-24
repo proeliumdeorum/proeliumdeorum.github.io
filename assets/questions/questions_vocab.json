@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Was bedeutet das lateinische Wort 'amare'?",
+        "options": ["Senden", "Lieben", "Fürchten", "Nehmen"],
+        "correct": "Lieben"
+    },
+    {
+        "question": "Was bedeutet 'bellum'?",
+        "options": ["Frieden", "Krieg", "Freude", "Licht"],
+        "correct": "Krieg"
+    },
+    {
+        "question": "Was bedeutet 'caput'?",
+        "options": ["Hand", "Fuß", "Kopf", "Herz"],
+        "correct": "Kopf"
+    },
+    {
+        "question": "Was bedeutet 'currere'?",
+        "options": ["Schreiben", "Lesen", "Laufen", "Sprechen"],
+        "correct": "Laufen"
+    },
+    {
+        "question": "Was bedeutet 'domus'?",
+        "options": ["Straße", "Haus", "Garten", "Platz"],
+        "correct": "Haus"
+    },
+    {
+        "question": "Was bedeutet 'facere'?",
+        "options": ["Sagen", "Tun, machen", "Denken", "Wollen"],
+        "correct": "Tun, machen"
+    },
+    {
+        "question": "Was bedeutet 'gaudium'?",
+        "options": ["Trauer", "Freude", "Angst", "Mut"],
+        "correct": "Freude"
+    },
+    {
+        "question": "Was bedeutet 'homo'?",
+        "options": ["Gott", "Tier", "Mensch", "König"],
+        "correct": "Mensch"
+    },
+    {
+        "question": "Was bedeutet 'ire'?",
+        "options": ["Kommen", "Gehen", "Bleiben", "Kehren"],
+        "correct": "Gehen"
+    },
+    {
+        "question": "Was bedeutet 'laborare'?",
+        "options": ["Spielen", "Arbeiten", "Ruhen", "Tanzen"],
+        "correct": "Arbeiten"
+    },
+    {
+        "question": "Was bedeutet 'magnus'?",
+        "options": ["Klein", "Groß", "Schnell", "Langsam"],
+        "correct": "Groß"
+    },
+    {
+        "question": "Was bedeutet 'navis'?",
+        "options": ["Auto", "Schiff", "Flugzeug", "Zug"],
+        "correct": "Schiff"
+    },
+    {
+        "question": "Was bedeutet 'oculus'?",
+        "options": ["Ohr", "Nase", "Auge", "Mund"],
+        "correct": "Auge"
+    },
+    {
+        "question": "Was bedeutet 'parvus'?",
+        "options": ["Breit", "Hoch", "Klein", "Tief"],
+        "correct": "Klein"
+    },
+    {
+        "question": "Was bedeutet 'quaerere'?",
+        "options": ["Finden", "Suchen, fragen", "Geben", "Nehmen"],
+        "correct": "Suchen, fragen"
+    },
+    {
+        "question": "Was bedeutet 'regere'?",
+        "options": ["Dienen", "Führen, lenken", "Folgen", "Kämpfen"],
+        "correct": "Führen, lenken"
+    },
+    {
+        "question": "Was bedeutet 'scire'?",
+        "options": ["Glauben", "Hoffen", "Wissen", "Denken"],
+        "correct": "Wissen"
+    },
+    {
+        "question": "Was bedeutet 'tempus'?",
+        "options": ["Ort", "Zeit", "Ding", "Grund"],
+        "correct": "Zeit"
+    },
+    {
+        "question": "Was bedeutet 'urbs'?",
+        "options": ["Land", "Stadt", "Dorf", "Wald"],
+        "correct": "Stadt"
+    },
+    {
+        "question": "Was bedeutet 'via'?",
+        "options": ["Tür", "Fenster", "Weg, Straße", "Brücke"],
+        "correct": "Weg, Straße"
+    },
+    {
+        "question": "Was bedeutet 'volare'?",
+        "options": ["Schwimmen", "Fliegen", "Kriechen", "Springen"],
+        "correct": "Fliegen"
+    },
+    {
+        "question": "Was bedeutet 'uxor'?",
+        "options": ["Vater", "Mutter", "Ehefrau", "Tochter"],
+        "correct": "Ehefrau"
+    },
+        {
+        "question": "Was bedeutet 'ventus'?",
+        "options": ["Feuer", "Wasser", "Wind", "Erde"],
+        "correct": "Wind"
+    },
+    {
+        "question": "Was bedeutet 'timere'?",
+        "options": ["Lieben", "Fürchten", "Wünschen", "Hassen"],
+        "correct": "Fürchten"
+    },
+    {
+        "question": "Was bedeutet 'stare'?",
+        "options": ["Sitzen", "Stehen", "Liegen", "Gehen"],
+        "correct": "Stehen"
+    },
+    {
+        "question": "Was bedeutet 'sol'?",
+        "options": ["Mond", "Stern", "Sonne", "Planet"],
+        "correct": "Sonne"
+    },
+    {
+        "question": "Was bedeutet 'rex'?",
+        "options": ["Sklave", "Bürger", "König", "Soldat"],
+        "correct": "König"
+    },
+    {
+        "question": "Was bedeutet 'putare'?",
+        "options": ["Sprechen", "Denken, glauben", "Hören", "Sehen"],
+        "correct": "Denken, glauben"
+    },
+    {
+        "question": "Was bedeutet 'pons'?",
+        "options": ["Tunnel", "Brücke", "Mauer", "Turm"],
+        "correct": "Brücke"
+    },
+    {
+        "question": "Was bedeutet 'portare'?",
+        "options": ["Werfen", "Tragen", "Ziehen", "Schieben"],
+        "correct": "Tragen"
+    },
+    {
+        "question": "Was bedeutet 'nox'?",
+        "options": ["Tag", "Nacht", "Morgen", "Abend"],
+        "correct": "Nacht"
+    },
+    {
+        "question": "Was bedeutet 'munus'?",
+        "options": ["Strafe", "Geschenk, Aufgabe", "Schuld", "Lob"],
+        "correct": "Geschenk, Aufgabe"
+    },
+    {
+        "question": "Was bedeutet 'miles'?",
+        "options": ["Bauer", "Händler", "Soldat", "Lehrer"],
+        "correct": "Soldat"
+    },
+    {
+        "question": "Was bedeutet 'locus'?",
+        "options": ["Buch", "Tisch", "Ort, Platz", "Haus"],
+        "correct": "Ort, Platz"
+    },
+    {
+        "question": "Was bedeutet 'legere'?",
+        "options": ["Schreiben", "Lesen", "Rechnen", "Zeichnen"],
+        "correct": "Lesen"
+    },
+    {
+        "question": "Was bedeutet 'iungere'?",
+        "options": ["Trennen", "Verbinden", "Zerstören", "Bauen"],
+        "correct": "Verbinden"
+    },
+    {
+        "question": "Was bedeutet 'iniuria'?",
+        "options": ["Wahrheit", "Gerechtigkeit", "Unrecht, Beleidigung", "Frieden"],
+        "correct": "Unrecht, Beleidigung"
+    },
+    {
+        "question": "Was bedeutet 'intellegere'?",
+        "options": ["Vergessen", "Verstehen", "Lernen", "Wiederholen"],
+        "correct": "Verstehen"
+    },
+    {
+        "question": "Was bedeutet 'insula'?",
+        "options": ["Berg", "Tal", "Insel", "See"],
+        "correct": "Insel"
+    },
+    {
+        "question": "Was bedeutet 'ignis'?",
+        "options": ["Luft", "Wasser", "Feuer", "Erde"],
+        "correct": "Feuer"
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "question": "Wer ist der Göttervater in der griechischen Mythologie?",
+        "options": ["Poseidon", "Hades", "Zeus", "Apollon"],
+        "correct": "Zeus"
+    },
+    {
+        "question": "Welches Tier symbolisiert Zeus?",
+        "options": ["Löwe", "Adler", "Stier", "Schlange"],
+        "correct": "Adler"
+    },
+    {
+        "question": "Wer entführte Persephone in die Unterwelt?",
+        "options": ["Hades", "Hermes", "Ares", "Hephaistos"],
+        "correct": "Hades"
+    },
+    {
+        "question": "Wie heißt der Fluss, den die Toten in die Unterwelt überqueren müssen?",
+        "options": ["Styx", "Lethe", "Okeanos", "Phlegethon"],
+        "correct": "Styx"
+    },
+    {
+        "question": "Wer besiegte den Minotaurus?",
+        "options": ["Perseus", "Theseus", "Herakles", "Odysseus"],
+        "correct": "Theseus"
+    },
+    {
+        "question": "Wer ist die Göttin der Jagd in der griechischen Mythologie?",
+        "options": ["Aphrodite", "Demeter", "Artemis", "Hestia"],
+        "correct": "Artemis"
+    },
+    {
+        "question": "Welches Element wird Poseidon zugeordnet?",
+        "options": ["Feuer", "Erde", "Wasser", "Luft"],
+        "correct": "Wasser"
+    },
+    {
+        "question": "Wie heißt der Schmiedegott in der griechischen Mythologie?",
+        "options": ["Hephaistos", "Hermes", "Ares", "Dionysos"],
+        "correct": "Hephaistos"
+    },
+    {
+        "question": "Wer brachte Prometheus Strafe für das Stehlen des Feuers?",
+        "options": ["Zeus", "Hades", "Hera", "Kronos"],
+        "correct": "Zeus"
+    },
+    {
+        "question": "Welche Göttin entstand aus dem Schaum des Meeres?",
+        "options": ["Hera", "Athene", "Aphrodite", "Demeter"],
+        "correct": "Aphrodite"
+    },
+    {
+        "question": "Wer führte die Griechen zum Sieg gegen Troja mit der Idee des hölzernen Pferdes?",
+        "options": ["Agamemnon", "Odysseus", "Achill", "Paris"],
+        "correct": "Odysseus"
+    },
+    {
+        "question": "Wer wurde von einer Schlange gebissen und in die Unterwelt gebracht?",
+        "options": ["Andromeda", "Eurydike", "Medusa", "Helena"],
+        "correct": "Eurydike"
+    },
+    {
+        "question": "Wie heißt der Riese mit nur einem Auge?",
+        "options": ["Titan", "Zyklop", "Kentaur", "Gorgone"],
+        "correct": "Zyklop"
+    },
+    {
+        "question": "Wie heißt der Gott des Weines?",
+        "options": ["Apollon", "Hermes", "Dionysos", "Pan"],
+        "correct": "Dionysos"
+    },
+    {
+        "question": "Wer ist die römische Entsprechung von Zeus?",
+        "options": ["Saturn", "Pluto", "Jupiter", "Mars"],
+        "correct": "Jupiter"
+    },
+    {
+        "question": "Welches Tier blickt auf das Schild der Athene?",
+        "options": ["Eule", "Schlange", "Wolf", "Stier"],
+        "correct": "Eule"
+    },
+    {
+        "question": "Welche Stadt ist nach Athene benannt?",
+        "options": ["Rom", "Athen", "Sparta", "Troja"],
+        "correct": "Athen"
+    },
+    {
+        "question": "Wer ist die Mutter von Perseus?",
+        "options": ["Danaë", "Andromeda", "Medea", "lo"],
+        "correct": "Danaë"
+    },
+    {
+        "question": "Welches Monster hatte Schlangen als Haare?",
+        "options": ["Sphinx", "Medusa", "Minotaurus", "Chimäre"],
+        "correct": "Medusa"
+    },
+    {
+        "question": "Wer ist der Gott der Unterwelt in der römischen Mythologie?",
+        "options": ["Mars", "Pluto", "Merkur", "Neptun"],
+        "correct": "Pluto"
+    },
+    {
+        "question": "Welcher Titan verschlang seine Kinder?",
+        "options": ["Prometheus", "Atlas", "Kronos", "Hyperion"],
+        "correct": "Kronos"
+    },
+    {
+        "question": "Welcher Halbgott führte die zwölf Arbeiten aus?",
+        "options": ["Theseus", "Herakles", "Perseus", "Achilles"],
+        "correct": "Herakles"
+    },
+        {
+        "question": "Wer war die Geliebte von Paris?",
+        "options": ["Medea", "Helena", "Penelope", "Kalypso"],
+        "correct": "Helena"
+    },
+    {
+        "question": "Welcher Fluss der Unterwelt lässt die Seelen ihre Erinnerungen vergessen?",
+        "options": ["Styx", "Lethe", "Acheron", "Phlegethon"],
+        "correct": "Lethe"
+    },
+    {
+        "question": "Wie viele Köpfe hatte die Hydra?",
+        "options": ["Drei", "Sieben", "Neun", "Zwölf"],
+        "correct": "Neun"
+    },
+    {
+        "question": "Wer war die Frau von Odysseus?",
+        "options": ["Helena", "Penelope", "Andromeda", "Eurydike"],
+        "correct": "Penelope"
+    },
+    {
+        "question": "Welcher Held wurde durch seine Ferse verwundbar?",
+        "options": ["Perseus", "Achilles", "Theseus", "Odysseus"],
+        "correct": "Achilles"
+    },
+    {
+        "question": "Wer verführte Odysseus mit ihrem Gesang?",
+        "options": ["Sirenen", "Harpyien", "Nymphen", "Furien"],
+        "correct": "Sirenen"
+    },
+    {
+        "question": "Wer war die Göttin der Weisheit?",
+        "options": ["Hera", "Athene", "Aphrodite", "Hestia"],
+        "correct": "Athene"
+    },
+    {
+        "question": "Welches Wesen war halb Mensch, halb Pferd?",
+        "options": ["Gorgone", "Kentaur", "Satyr", "Zyklop"],
+        "correct": "Kentaur"
+    },
+    {
+        "question": "Wer war der Vater von Herakles?",
+        "options": ["Hades", "Ares", "Zeus", "Apollon"],
+        "correct": "Zeus"
+    },
+    {
+        "question": "Welcher Gott trug einen geflügelten Helm und Schuhe?",
+        "options": ["Hermes", "Apollon", "Dionysos", "Ares"],
+        "correct": "Hermes"
+    },
+    {
+        "question": "Welche Göttin bestrafte Narziss mit unglücklicher Selbstliebe?",
+        "options": ["Aphrodite", "Nemesis", "Hera", "Persephone"],
+        "correct": "Nemesis"
+    },
+    {
+        "question": "Wer wurde in einen Lorbeerbaum verwandelt, um Apollon zu entkommen?",
+        "options": ["Eurydike", "Daphne", "Medea", "Andromeda"],
+        "correct": "Daphne"
+    },
+    {
+        "question": "Welcher Gott spielte die Lyra?",
+        "options": ["Hermes", "Apollon", "Ares", "Dionysos"],
+        "correct": "Apollon"
+    },
+    {
+        "question": "Wer erschuf das Labyrinth des Minotaurus?",
+        "options": ["Ikarus", "Dädalus", "Perseus", "Orpheus"],
+        "correct": "Dädalus"
+    },
+    {
+        "question": "Welches Tier bewachte den Eingang zur Unterwelt?",
+        "options": ["Adler", "Drache", "Zerberus", "Sphinx"],
+        "correct": "Zerberus"
+    },
+    {
+        "question": "Welche Helden segelten mit der Argo?",
+        "options": ["Herakles und Perseus", "Odysseus und Achill", "Theseus und Jason", "Paris und Hektor"],
+        "correct": "Theseus und Jason"
+    },
+    {
+        "question": "Wer hatte einen goldenen Apfel für die schönste Göttin?",
+        "options": ["Hermes", "Paris", "Achill", "Zeus"],
+        "correct": "Paris"
+    },
+    {
+        "question": "Welcher Titan trägt den Himmel auf seinen Schultern?",
+        "options": ["Kronos", "Prometheus", "Atlas", "Hyperion"],
+        "correct": "Atlas"
+    },
+    {
+        "question": "Welches Ungeheuer fraß Männer und lebte neben Charybdis?",
+        "options": ["Medusa", "Skylla", "Minotaurus", "Harpyie"],
+        "correct": "Skylla"
+    },
+    {
+        "question": "Welcher König war für seine extreme Gier bekannt und erhielt die Fähigkeit, alles in Gold zu verwandeln?",
+        "options": ["Minos", "Midas", "Agamemnon", "Theseus"],
+        "correct": "Midas"
+    },
+    {
+        "question": "Wer führte Orpheus in die Unterwelt, um Eurydike zurückzuholen?",
+        "options": ["Hermes", "Apollon", "Zeus", "Dionysos"],
+        "correct": "Hermes"
+    },
+    {
+        "question": "Wer war die Göttin der Fruchtbarkeit und Landwirtschaft?",
+        "options": ["Artemis", "Hestia", "Demeter", "Hera"],
+        "correct": "Demeter"
+    },
+    {
+        "question": "Wie viele Musen gab es in der griechischen Mythologie?",
+        "options": ["Sieben", "Neun", "Drei", "Zwölf"],
+        "correct": "Neun"
+    },
+    {
+        "question": "Welcher Gott wurde aus dem Schenkel von Zeus geboren?",
+        "options": ["Apollon", "Dionysos", "Hermes", "Ares"],
+        "correct": "Dionysos"
+    },
+    {
+        "question": "Wer war der Erbauer von Troja und Begründer des trojanischen Königsgeschlechts?",
+        "options": ["Laomedon", "Priamos", "Dardanos", "Paris"],
+        "correct": "Dardanos"
+    },
+    {
+        "question": "Welche Göttin wurde aus dem Kopf von Zeus geboren?",
+        "options": ["Hera", "Aphrodite", "Athene", "Artemis"],
+        "correct": "Athene"
+    },
+    {
+        "question": "Wer war der erste Sterbliche, der unsterblich wurde und als Wassermann am Himmel steht?",
+        "options": ["Orpheus", "Ganymed", "Perseus", "Kadmos"],
+        "correct": "Ganymed"
+    }
+]
